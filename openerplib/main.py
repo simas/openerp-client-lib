@@ -35,7 +35,7 @@ Home page: http://pypi.python.org/pypi/openerp-client-lib
 Code repository: https://code.launchpad.net/~niv-openerp/openerp-client-lib/trunk
 """
 
-import xmlrpclib
+from xmlrpc import client as xmlrpclib
 import logging
 import json
 import urllib
